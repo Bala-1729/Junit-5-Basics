@@ -6,6 +6,11 @@ public class MathUtils {
 		return a+b;
 	}
 	
+	public double divide(int a, int b)
+	{
+		return a/b;
+	}
+	
 	public double circleArea(int radius)
 	{
 		return Math.PI * radius * radius;
